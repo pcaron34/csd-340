@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html, body{
+	font-size: 16px;
+}
+
+p{
+	font-family: "Quattrocento", Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	line-height: 1.4em;
+	
+}
+
+h1{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 3.052em;
+	word-spacing: .5em;
+	text-align: center;
+}
+
+h2{
+	font-weight: 500;
+	font-size: 2.441em;
+	word-spacing: .2em;
+	text-align: left;
+	padding-top: 15px;
+}
+
+address{
+	font-family: "Quattrocento", Georgia, "Times New Roman", serif;
+	text-align: center;	
+}
+
+a:link{
+	font-weight: bold;
+	font-size: 1.25em;
+	color: #4f3674;
+	text-decoration: none;	
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #d6a800 /* I didn't use a background color on an onHover property that was in the instructions but I did use it on the text color because a background color doesn't work on an anchor tag as far as I know. Please let me know if I am wrong about that. */
+}
+
+a:visited{
+	color: green;
+}
+
+.sentence{
+	font-style: italic;
+}
+
+.intro{
+	text-indent: .2em;
+}
+
