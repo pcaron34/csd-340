@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color: rgba(247, 112, 24, 0.3);	
+	font-family: Oswald, Verdana, Arial, sans-serif;
+}
+
+
+
+h1, h3, caption{
+	color: rgba(185, 63, 8);
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+/*I would have prefered to make the image size fluid so it would resize with the window
+img{
+	width: 100%;
+	height: 350px;
+}
+It works and looks much nicer this way in my opinion
+*/
+img{
+	width: 400px;
+	height: 350px;
+	
+}
+
+figure{
+	text-align: center;
+	
+}
+
+figcaption{
+	font-family: Oswald, Verdana, Arial, sans-serif;
+	font-size: .75em;
+	font-weight: 400;
+	font-style: italic;
+}
+
+#image-gallery{
+	margin-top: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.image{
+	border: 1px solid rgba(185, 63, 8);
+	border-radius: 15px;
+	padding: 5px;
+	width: 30%;
+	
+}
+
+
+
+
+
